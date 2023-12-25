@@ -63,7 +63,7 @@
   },
   {
     "listen": "0.0.0.0",
-    "port": 8080,
+    "port": 2095,
     "protocol": "shadowsocks",
     "settings": {
         "password": "DFSC1XreXVTsfwuwpiVKwJLG69rUxNR3mCspgfYvRQow",
@@ -132,23 +132,5 @@
       "tag": "blocked"
       }
   ],
-  "routing": {
-    "rules": [
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "blocked",
-        "type": "field"
-      },
-      {
-        "outboundTag": "blocked",
-        "protocol": [
-          "bittorrent"
-        ],
-        "type": "field"
-      }
-    ]
-  },
   "stats": {}
 }
