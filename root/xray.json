@@ -63,7 +63,7 @@
   },
   {
     "listen": "0.0.0.0",
-    "port": 2095,
+    "port": 8080,
     "protocol": "shadowsocks",
     "settings": {
         "password": "DFSC1XreXVTsfwuwpiVKwJLG69rUxNR3mCspgfYvRQow",
